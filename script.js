@@ -3,6 +3,8 @@ function firstWord(s) {
     return s;
   }
 
+  s = s.trim(); // This will remove any leading or trailing spaces
+
   const firstSpaceIndex = s.indexOf(' ');
 
   if (firstSpaceIndex === -1) {
